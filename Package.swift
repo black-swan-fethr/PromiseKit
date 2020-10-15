@@ -5,7 +5,7 @@ let package = Package(
     name: "PromiseKit",
     platforms: [.iOS(.v10)],
     products: [
-        .library(name: “PromiseKit", targets: [“PromiseKit"]),
+        .library(name: "PromiseKit", targets: ["PromiseKit"]),
     ],
     targets: [
         .target(
