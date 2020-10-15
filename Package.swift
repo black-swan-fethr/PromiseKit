@@ -12,21 +12,20 @@ let package = Package(
             name: "PromiseKit",
             path: "Sources",
             exclude: [
-                "Sources/AnyPromise.swift",
-                "Sources/Promise+AnyPromise.swift",
-                "Sources/AnyPromise.m",
-                "Sources/dispatch_promise.m",
-                "Sources/GlobalState.m",
-                "Sources/hang.m",
-                "Sources/NSMethodSignatureForBlock.m",
-                "Sources/join.m",
-                "Sources/PMKCallVariadicBlock.m",
-                "Sources/when.m",
-                "Sources/after.m",
-                "Sources/AnyPromise+Private.h",
-                "Sources/AnyPromise.h",
-                "Sources/PromiseKit.h",
-                "Tests"
+                "AnyPromise.swift",
+                "Promise+AnyPromise.swift",
+                "AnyPromise.m",
+                "dispatch_promise.m",
+                "GlobalState.m",
+                "hang.m",
+                "NSMethodSignatureForBlock.m",
+                "join.m",
+                "PMKCallVariadicBlock.m",
+                "when.m",
+                "after.m",
+                "AnyPromise+Private.h",
+                "AnyPromise.h",
+                "PromiseKit.h"
             ]
     )]
 )
