@@ -9,8 +9,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Tool",
-            path: "PromiseKit",
+            name: "PromiseKit",
+            path: "Sources",
             exclude: [
                 "Sources/AnyPromise.swift",
                 "Sources/Promise+AnyPromise.swift",
